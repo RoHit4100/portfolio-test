@@ -16,7 +16,7 @@ span{
 h1 {
     font-family: 'Sacramento', cursive;
     font-size: 500.5%;
-    margin: 90px auto 0 auto;
+    margin: 160px auto 0 auto;
     color: #66bfbf;
 }
 
@@ -46,7 +46,11 @@ hr{
 }
 
 img.top-cloud{
-    top: 140px   ;
+    top: 150px;
+}
+
+div.top-container{
+    padding: 0%;
 }
 
 .profile{
@@ -172,4 +176,25 @@ a:hover{
     color: #f2f2f2;
     margin: 30px auto 0;
     font-size: 0.600rem;
+}
+
+
+/* bootstrap classes */
+.navbar{
+    padding: 0px 240px;
+    color: #66bfbf;
+}
+
+.navbar-brand{
+    color: #4e8d8d;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.nav-link{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 31px;
+    color: #4e8d8d;
 }
