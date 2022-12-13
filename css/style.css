@@ -21,6 +21,7 @@ h1 {
 }
 
 h2 {
+    margin-top: 60px;
     margin-bottom: 60px;
     font-size: 200%;
     font-family: 'Montserrat', sans-serif;
@@ -41,11 +42,15 @@ hr{
     border-color: #434242;
     border-width: 5px;
     width: 50px;
-    margin: 80px auto;
+    margin: 100px auto;
+}
+
+img.top-cloud{
+    top: 140px   ;
 }
 
 .profile{
-    padding-top: 100px  ;
+    padding-top: 100px;
 }
 .contact-me{
     padding-bottom: 60px;
@@ -144,13 +149,13 @@ a:hover{
     text-align: center;
     position: relative;
     background-color: #434242;
-
 }
 
 .top-cloud {
     position: absolute;
     right: 17%;
     width: 15%;
+    position: 60px;
 }
 
 .bottom-cloud {

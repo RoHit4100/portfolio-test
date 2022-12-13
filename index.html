@@ -4,67 +4,97 @@
 <head>
     <meta charset="UTF-8">
     <title>Rohit l. Udamale</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favcon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
         rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
 </head>
 
-<body>
-    <div class="top-container">
+
+<div class="top-container">
+
+    <body>
+        <nav class="navbar navbar-expand-lg"
+            style="background-color: #477b7b; color:black; position:relative; bottom: 100px; text-align:center">
+            <a class="navbar-brand ms-5" href="">Rohit</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ms-auto" style="width:30%">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#get-in-touch">Get In Touch</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <img class="top-cloud" src="img/cloud.png" alt="cloud-img">
         <h1>Rohit L. Udamale</h1>
         <h2 class="prof">a <span>pro</span>grammer</h2>
         <img class="bottom-cloud" src="img/cloud.png" alt="bottom-cloud">
         <img class="mountain" src="img/mountain.png" alt="mountain">
-    </div>
+</div>
 
-    <div class="middle-container">
-        <div class="profile">
-            <img class="my-img"
-                src="https://scontent.fnag6-1.fna.fbcdn.net/v/t39.30808-1/275049764_1021243468462925_366506391202347833_n.jpg?stp=dst-jpg_p320x320&_nc_cat=111&ccb=1-7&_nc_sid=7206a8&_nc_ohc=SKIQPW0jjRYAX-ue3VT&_nc_ht=scontent.fnag6-1.fna&oh=00_AfAmLbilXi2--5SVvP4aEKekF8_vqY4suNkyIrHAatICTQ&oe=639B6B31 "
-                alt="rohit-udamale">
-            <h2>Hello!!</h2>
-            <p class="myinfo">My name is Rohit and i am currently pursuing my Computer Engineering degree from Pillai
-                HOC, which is
-                located at rasayani in khalapur.</p>
+<div class="middle-container">
+    <div class="profile" id="profile">
+        <img class="my-img"
+            src="https://scontent.fnag6-1.fna.fbcdn.net/v/t39.30808-1/275049764_1021243468462925_366506391202347833_n.jpg?stp=dst-jpg_p320x320&_nc_cat=111&ccb=1-7&_nc_sid=7206a8&_nc_ohc=SKIQPW0jjRYAX-ue3VT&_nc_ht=scontent.fnag6-1.fna&oh=00_AfAmLbilXi2--5SVvP4aEKekF8_vqY4suNkyIrHAatICTQ&oe=639B6B31 "
+            alt="rohit-udamale">
+        <h2>Hello!!</h2>
+        <p class="myinfo">My name is Rohit and i am currently pursuing my Computer Engineering degree from Pillai
+            HOC, which is
+            located at rasayani in khalapur.</p>
+    </div>
+    <hr id="skills">
+    <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+            <img class="design" src="img/gif.webp" alt="designing-gif">
+            <h3>Web Developer</h3>
+            <p>I am Web Developer,I have completed my course from Udemy in the valuable from Dr. Angela, During this
+                course i have learn alot of things from my guide</p>
         </div>
-        <hr>
-        <div class="skills">
-            <h2>My Skills.</h2>
-            <div class="skill-row">
-                <img class="design" src="img/gif.webp" alt="designing-gif">
-                <h3>Web Developer</h3>
-                <p>I am Web Developer,I have completed my course from Udemy in the valuable from Dr. Angela, During this
-                    course i have learn alot of things from my guide</p>
-            </div>
-            <div class="skill-row">
-                <img class="DS" src="img/Ds.webp" alt="">
-                <h3>Data Structure and Algorithm</h3>
-                <pc class="ds-desc">I have done this course from youtube this was an amazing course from Kunal
-                    Kushwaha,He teach every
-                    little or basic information in detail thats why i understand those Algorithms easily</pc>
-            </div>
-        </div>
-        <hr>
-        <div class="contact-me">
-            <h2>Get In Touch</h2>
-            <h3>If you love programming as much as i do.</h3>
-            <p class="contact">Lets talk about the programming and how it is amazing!! <br>
-                We can talk on any platform just message me!</p>
-            <a class="btn" href="mailto:rohitudmale777@gmail.com">CONTACT ME</a>
+        <div class="skill-row">
+            <img class="DS" src="img/Ds.webp" alt="">
+            <h3>Data Structure and Algorithm</h3>
+            <pc class="ds-desc">I have done this course from youtube this was an amazing course from Kunal
+                Kushwaha,He teach every
+                little or basic information in detail thats why i understand those Algorithms easily</pc>
         </div>
     </div>
-
-
-    <div class="bottom-container">
-        <a href="https://www.linkedin.com/in/rohit-udamale-5b3023236/">LinkedIn</a>
-        <a href="https://twitter.com/rohit__udamale">Twitter</a>
-        <a href="https://github.com/RoHit4100/">Github</a>
-        <p class="copyright">©2023 LSKR @Rohit Udamale.</p>
+    <hr>
+    <div class="contact-me" id="get-in-touch">
+        <h2>Get In Touch</h2>
+        <h3>If you love programming as much as i do.</h3>
+        <p class="contact">Lets talk about the programming and how it is amazing!! <br>
+            We can talk on any platform just message me!</p>
+        <a class="btn" href="mailto:rohitudmale777@gmail.com">CONTACT ME</a>
     </div>
+</div>
+
+
+<div class="bottom-container" id="contact">
+    <a href="https://www.linkedin.com/in/rohit-udamale-5b3023236/">LinkedIn</a>
+    <a href="https://twitter.com/rohit__udamale">Twitter</a>
+    <a href="https://github.com/RoHit4100/">Github</a>
+    <p class="copyright">©2023 LSKR @Rohit Udamale.</p>
+</div>
 </body>
 
 </html>
