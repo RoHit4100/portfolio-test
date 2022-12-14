@@ -181,10 +181,12 @@ a:hover{
 
 /* bootstrap classes */
 .navbar{
-    padding: 0px 240px;
     color: #66bfbf;
 }
 
+.container-fluid{
+    padding: 3% 15%;
+}
 .navbar-brand{
     color: #4e8d8d;
     font-family: 'Ubuntu', sans-serif;
