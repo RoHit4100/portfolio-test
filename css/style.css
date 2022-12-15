@@ -1,39 +1,38 @@
+/* Media Query  */
+@media(max-width:1024px){
+    body{
+        text-align: center;
+    }
+    .top-cloud, .bottom-cloud, .mountain{
+        visibility: hidden;
+    }
+    .top-container{
+        height: 40rem;
+    }
+}
+
+
+
+/* Element  */
 body {
     text-align: center;
     font-family: 'Merriweather', serif;
-    margin: 0;
     font-size: 1rem;
+}
+
+h2 {
+    color: #66bfbf;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #11999E;
 }
 
 p{
     color: #40514E;
     line-height: 2;
-}
-span{
-    text-decoration: underline;
-}
-
-h1 {
-    font-family: 'Sacramento', cursive;
-    font-size: 500.5%;
-    margin: 160px auto 0 auto;
-    color: #66bfbf;
-}
-
-h2 {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    font-size: 200%;
-    font-family: 'Montserrat', sans-serif;
-    color: #66bfbf;
-    font-weight:normal:
-     
-}
-
-h3 {
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-    color: #11999E;
 }
 
 hr{
@@ -45,72 +44,109 @@ hr{
     margin: 100px auto;
 }
 
-img.top-cloud{
-    top: 150px;
+
+
+/* Top Section  */
+.top-container {
+    background-color: #434242;      
 }
 
-div.top-container{
-    padding: 0%;
+.container-fluid{
+    padding: 2% 15% 0;
 }
 
-.profile{
+
+/* Title  */
+.name{
+    font-family: 'Sacramento', cursive;
+    font-size: 500.5%;
+    color: #66bfbf;
+    padding-top: 4%;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.profession{
+    font-size: 2.5rem;
+    margin: 60px 0;
+    font-weight: normal;
+}
+
+.top-cloud {
+    position: relative;
+    left: 36%;
+    padding-top: 2%;
+    width: 200px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 20%;
+    width: 200px;
+}
+
+.mountain{
+    width: 60%;
+    padding-left: 20px;
+}
+
+
+/* Navbar  */
+.navbar-brand{
+    color: #4e8d8d;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-weight: lighter;
+    font-family: 'Montserrat';
+    color: #4e8d8d;
+    margin: 0 25px;
+}
+
+
+
+/* Middle Section  */
+.middle-container{
+    background-color: #F3EFE0;
+    padding: 50px auto;
+}
+
+
+/* Profile Section  */
+#profile{
     padding-top: 100px;
-}
-.contact-me{
-    padding-bottom: 60px;
-}
-
-a{
-    color: #1f4359;
-    margin: 15px 20px;
-    text-decoration: none;
-}
-
-a:hover{
-    color:#F3EFE0;
-}
-
-.btn {
-  background-image: -webkit-linear-gradient(top, #3a5e75, #19a7ff);
-  background-image: -moz-linear-gradient(top, #3a5e75, #19a7ff);
-  background-image: -ms-linear-gradient(top, #3a5e75, #19a7ff);
-  background-image: -o-linear-gradient(top, #3a5e75, #19a7ff);
-  background-image: linear-gradient(to bottom, #3a5e75, #19a7ff);
-  -webkit-border-radius: 10;
-  -moz-border-radius: 10;
-  border-radius: 10px;
-  font-family: Arial;
-  color: #f2f2f2;
-  font-size: 18px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  border: none;
-}
-
-.btn:hover {
-  background: #1f4359;
-  background-image: -webkit-linear-gradient(top, #1f4359, #00d6fc);
-  background-image: -moz-linear-gradient(top, #1f4359, #00d6fc);
-  background-image: -ms-linear-gradient(top, #1f4359, #00d6fc);
-  background-image: -o-linear-gradient(top, #1f4359, #00d6fc);
-  background-image: linear-gradient(to bottom, #1f4359, #00d6fc);
-  text-decoration: none;
-}
-
-.contact{
-    line-height: 2;
-    width: 30%;
-    margin: 3% auto;
-}
-
-.myinfo{
-    width: 30%;
-    margin: auto;
 }
 
 .my-img{
-    width: 15%;
-    border-radius: 300px;
+    width: 18%;
+    border-radius: 100%;
+}
+
+.greet{
+    padding: 5% 0 3%;
+}
+
+.my-info{
+    width: 35%;
+    margin: auto;
+}
+
+
+/* Skill Section  */
+.skill{
+    font-size: 2rem;
+}
+
+.skill-row{
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
 }
 
 .design{
@@ -124,79 +160,39 @@ a:hover{
     float: right;
     width: 25%;
 }
-.skill-row{
-    margin: 100px auto;
-    width: 50%;
-    text-align: left;
-    line-height: 2;
+
+
+/* Contact section  */
+.contact-me{
+    padding-bottom: 60px;
 }
 
-.prof {
-    font-size: 2.5rem;
+.GIT{
+    padding-bottom: 3%;
+}
+
+
+.email-icon{
+    margin: 0 5px;
 }
 
 
 
-.middle-container{
-    background-color: #F3EFE0;
-    padding: 50px auto;
-}
-
+/* Bottom section  */
 .bottom-container{
     padding: 50px 0 5px;
     background-color: #222222;
 }
 
-.top-container {
-    padding-top: 100px;
-    margin: 0;
-    text-align: center;
-    position: relative;
-    background-color: #434242;
-}
-
-.top-cloud {
-    position: absolute;
-    right: 17%;
-    width: 15%;
-    position: 60px;
-}
-
-.bottom-cloud {
-    position: absolute;
-    left: 20%;
-    width: 15%;
-}
-
-.mountain{
-    width: 40%;
+.icons{
+    color: #1f4359;
+    margin: 1%;
+    font-size: 13px;
+    text-decoration: none;
 }
 
 .copyright{
     color: #f2f2f2;
     margin: 30px auto 0;
     font-size: 0.600rem;
-}
-
-
-/* bootstrap classes */
-.navbar{
-    color: #66bfbf;
-}
-
-.container-fluid{
-    padding: 3% 15%;
-}
-.navbar-brand{
-    color: #4e8d8d;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2.5rem;
-}
-
-.nav-link{
-    font-size: 1.1rem;
-    font-weight: lighter;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 31px;
-    color: #4e8d8d;
 }
